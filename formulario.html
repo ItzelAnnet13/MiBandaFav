@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario </title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Rubik+Mono+One&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Gidole&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <a href="./index.html"> Inicio </a>
+    </nav>
+
+    <h2> ¡Gracias por realizar esta encuesta sobre la banda! </h2>
+
+    <p> Por favor contesta a las sigueinte preguntas </p>
+
+    <form action="">
+        <div class="encuesta">
+            <label class="form-label">¿Te gusta BTS?</label><br>
+            <input type="radio" id="si" name="gusto_bts" value="si">
+            <label for="si">Sí</label>
+
+            <input type="radio" id="no" name="gusto_bts" value="no">
+            <label for="no">No</label>
+        </div>
+
+        <div class="encuesta">
+            <label for="cancion">¿Cuál es tu canción favorita de BTS?</label>
+            <input type="text" id="cancion" name="cancion">
+        </div>
+
+        <!-- Álbum favorito -->
+        <div class="encuesta">
+            <label for="album">¿Tienes un álbum favorito?</label>
+            <input type="text" id="album" name="album">
+        </div>
+
+        <!-- Comentarios -->
+        <div class="encuesta">
+            <label for="comentarios">¿Por qué te gusta BTS?</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+        </div>
+
+        <!-- Botón de envío -->
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
